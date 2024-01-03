@@ -18,7 +18,7 @@ export function View({state}) {
     );
 }
 
-export function JsonRecursive({object, jsonKey}) {
+export function JsonRecursive({object, jsonKey, state, setState}) {
 
     if(typeof(object) === "string"){
         return(
@@ -27,10 +27,10 @@ export function JsonRecursive({object, jsonKey}) {
                     Valor
                 </span>
                 <input className="w-5/6 px-2 py-1 border rounded shadow-sm" defaultValue={object} onInput={(e) => {
-                    jp.apply(jsonEditor, `$${jsonKey}.children`, () => {
+                    jp.apply(state, `$${jsonKey}.children`, () => {
                         return e.target.value;
                     });
-                    setJsonEditor({...jsonEditor});
+                    setState({...state});
                 }}/>
             </article>
         );

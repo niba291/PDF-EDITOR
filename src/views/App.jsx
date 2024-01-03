@@ -72,7 +72,7 @@ function App() {
             </div>
             <div className="w-1/2 h-screen flex p-5">
                 <div className="border h-full w-full p-2 rounded flex flex-col">
-                    <JsonRecursive object={jsonEditor} />
+                    <JsonRecursive object={jsonEditor} state={jsonEditor} setState={setJsonEditor} />
                 </div>
             </div>
         </div>
