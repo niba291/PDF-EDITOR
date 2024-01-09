@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.815bd5e6.css",
-    "main.js": "/static/js/main.58a0215b.js",
-    "index.html": "/index.html",
-    "main.815bd5e6.css.map": "/static/css/main.815bd5e6.css.map",
-    "main.58a0215b.js.map": "/static/js/main.58a0215b.js.map"
+    "main.css": "/PDF-EDITOR/static/css/main.815bd5e6.css",
+    "main.js": "/PDF-EDITOR/static/js/main.58a0215b.js",
+    "index.html": "/PDF-EDITOR/index.html",
+    "main.815bd5e6.css.map": "/PDF-EDITOR/static/css/main.815bd5e6.css.map",
+    "main.58a0215b.js.map": "/PDF-EDITOR/static/js/main.58a0215b.js.map"
   },
   "entrypoints": [
     "static/css/main.815bd5e6.css",
